@@ -1,0 +1,28 @@
+.flex-all-center{  /* container property-apply on container*/
+    display: flex;    /* Flex Box */
+    justify-content: center;  /* For horizontal center*/
+    align-items: center; /* for vertical center */
+    /* text-align: center; */
+}
+
+.btn{
+    padding: 1px 10px;
+    color: white;
+    background-color: #091eec;
+    border-color: #091eec;
+    border-radius: 14px;
+    cursor: pointer;  /* for hand symbol */
+}
+
+.my-1{
+    margin: 5px 0;
+}
+
+.my-2{
+    margin: 26px 0;
+}
+
+.text-center{
+    /* display: flex; */
+   text-align: center;
+}

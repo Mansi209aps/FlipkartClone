@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+:root{
+    --main-bg-color: #2874f0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    
+    background-color: var(--main-bg-color);
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 18px 0px 15px 130px;
+}
+nav ul{
+    height: 60px;  /* to shift in middle of the header - height of header*/
+    display: flex;  /* to shitft home about contact horizontally */
+    justify-content: flex-start;
+    align-items: center;
+}
+ nav ul li{
+    list-style-type: none;  /* to avoid disc, dot e.t.c */
+    padding: 0 17px; /* for space b/w home about contact */
+    padding: 0 25px;
+ }
+
+nav ul li a{
+    color: white;
+    text-decoration: none; /* to remove line below link */
+    font-family: 'Kdam Thmor Pro', sans-serif;
+} 
+
+nav ul li a:hover{   /* hover on the link settings */
+    color: red;
+    font-weight: bold;
+}
+
+.search{
+   display: flex;
+   align-items: center;
+}
+
+.search input{
+    width: 40vh;
+    height: 4vh;
+    border-radius: 20px;
+    border-color: #2874f0; 
+    margin: 0 16px 0 67px;
+    padding: 0 10px;
+}
+
+.search button{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 700;
+}
+
+.slider{
+    width: 80vw;
+    margin: 20px 206px;
+    overflow: hidden;
+}
+.slider img{
+    
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    overflow: hidden; 
+    /* overflow-x: scroll; */
+}
+
+.card-item{
+    display: inline-flex; /* to adjust the width of card */
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 13px;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    min-height: calc(100vh - 60px - 12vh);  /* space for body layout */
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
